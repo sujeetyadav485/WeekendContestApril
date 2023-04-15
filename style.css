@@ -1,0 +1,75 @@
+.container {
+   
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 8px 8px 4px #909090 , 8px 8px 0px #575757;
+    color: #130606;
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="number"] {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .employee {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .employee button {
+    background-color: #f44336;
+  }
+body
+{
+background:linear-gradient(to right bottom , #ffa585, #45c5d8 );
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}  
+.footer
+{
+    background-color: rgba(28, 2, 2, 0.614);
+    margin-block: 15px; 
+    color: #ffff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
